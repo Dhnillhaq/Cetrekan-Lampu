@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cetrak-Cetrekan Lampu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="lampunya">
+        <div>
+            <div>
+                <!-- Lampu 1 -->
+                <img>
+                <img src="assets/images/off.png" alt="" id="lampu1">
+                <br>
+                <button onclick="saklar('on1')" class="text-xl border-10 w-200 rounded xl bg-blue-500 text-white p-1">Nyalakan Lampu 1</button>
+                <button onclick="saklar('off1')" class="text-xl border-10 w-200 rounded xl bg-red-500 text-white p-1">Matikan Lampu 1</button>
+            </div>
+        </div>
+        <!-- Lampu 2 -->
+        <div>
+            <img src="assets/images/off.png" alt="" id="lampu2">
+            <br>
+            <button onclick="saklar('on2')" class="text-xl border-10 w-200 rounded xl bg-blue-500 text-white p-1">Nyalakan Lampu 2</button>
+            <button onclick="saklar('off2')" class="text-xl border-10 w-200 rounded xl bg-red-500 text-white p-1">Matikan Lampu 2</button>
+        </div>
+        <!-- Lampu 3 -->
+        <div>
+            <img src="assets/images/off.png" alt="" id="lampu3">
+            <br>
+            <button onclick="saklar('on3')" class="text-xl border-10 w-200 rounded xl bg-blue-500 text-white p-1">Nyalakan Lampu 3</button>
+            <button onclick="saklar('off3')" class="text-xl border-10 w-200 rounded xl bg-red-500 text-white p-1">Matikan Lampu 3</button>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- ini script JS saya -->
+    <script src="saklar.js"></script>
+</body>
+
+</html>
