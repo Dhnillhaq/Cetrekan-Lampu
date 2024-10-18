@@ -10,11 +10,15 @@ body {
     color: white;
 }
 
-.lampunya {
+.paraLampu {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px;
     border-spacing: 15px;
     height: 45rem;
+}
+
+.lampunya {
+    margin: 30px;
 }
